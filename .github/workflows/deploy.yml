@@ -2,7 +2,7 @@
   on: push
   jobs:
     deploy:
-      runs-on: ubuntu-latest
+      runs-on: macos-latest
       steps:
         - name: Deploy app in test
           run: "echo teste"
