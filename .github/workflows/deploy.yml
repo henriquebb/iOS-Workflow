@@ -4,5 +4,10 @@
     deploy:
       runs-on: macos-latest
       steps:
-        - name: Deploy app in test
-          run: "echo teste"
+        - name: Build iOS app
+          uses: sparkfabrik/ios-build-action@v2.3.0
+          with:
+            project-path: .
+            team-id: teste
+            team-name: teste
+            
