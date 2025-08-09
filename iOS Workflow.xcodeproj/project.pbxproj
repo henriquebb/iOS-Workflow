@@ -16,6 +16,11 @@
 			path = "iOS Workflow";
 			sourceTree = "<group>";
 		};
+		BFD4EBA52E47C792005B801E /* .github */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = .github;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +37,7 @@
 		BFD4EB8B2E47C5BA005B801E = {
 			isa = PBXGroup;
 			children = (
+				BFD4EBA52E47C792005B801E /* .github */,
 				BFD4EB962E47C5BB005B801E /* iOS Workflow */,
 				BFD4EB952E47C5BB005B801E /* Products */,
 			);
@@ -62,6 +68,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				BFD4EB962E47C5BB005B801E /* iOS Workflow */,
+				BFD4EBA52E47C792005B801E /* .github */,
 			);
 			name = "iOS Workflow";
 			packageProductDependencies = (
