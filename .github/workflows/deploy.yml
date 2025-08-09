@@ -5,4 +5,4 @@
       runs-on: ubuntu-latest
       steps:
         - name: Deploy app in test
-          run: "Echo teste"
+          run: "echo teste"
